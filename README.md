@@ -51,10 +51,7 @@ A one sample t-test is performed on the Lot 2 manufacturing dataset. The resulti
 A one sample t-test is performed on the Lot 3 manufacturing dataset. The resulting p-value is 0.04. Since 0.04 is less than the common 0.05 significance value, we reject the null hypothesis and state that there is a statistically significant difference between Lot 3 and the population. Lot 3 requires further evaluation.
 
 ## Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+Successful protype designs take many factors into account including market demand and performance against competing companies. The MechaCar production team should also take consumer interst metrics into consideration when designing their newest model. For example, cost, city and highway fuel efficiency, horse power, maintenance cost, and safety ratings are all valid metrics which can determine buyer compatibility.<br> 
 
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+Running ANOVA tests on the before mentioned metrics between MechaCar and competitor designs would be a wise use of production time. The ANOVA test allows the comparison of multiple car designs against a fixed variable, such as highway fuel effiency. The null hypothesis would state that there is no statistical significance (p-value > 0.05) in the distribution means amongst multiple samples of cars in different categories. The alternative hypothesis determines supports the claim that there is a statistically significant difference (p-value < 0.05) between the cars being tested. If the p-value is less than 0.05, further tests can be run to analyze exactly which competitor cars show a correlatory relationship with MechaCar's prototype. In order to run this ANOVA, the company would need to gather data on competitor cars of a similar class, including but not limited to metrics of interest such as vehicle length, vehicle ground clearance, cost, city and highway fuel efficiency, horse power, maintenance cost, and safety ratings.
+
