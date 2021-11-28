@@ -1,5 +1,8 @@
-# MechaCar_Statistical_Analysis
-Using R to review production data for insights to help AutoRUs manufacturing team.
+# MechaCar Statistical Analysis
+
+## Overview
+
+Using R to review production data, insights are gathered to help AutoRUs manufacturing team address troubles which are hampering production of the newest prototype, the MechaCar. Linear regression analysis, statistical summaries, and t-test help assess the manufacturing team's situation and provide feedback on production developments to implement for higher quality results. 
 
 ## Linear Regression to Predict MPG
 <p align="center">
@@ -46,3 +49,12 @@ A one sample t-test is performed on the Lot 2 manufacturing dataset. The resulti
   <img src="https://github.com/Shelka4444/MechaCar_Statistical_Analysis/blob/main/Images/Ttest_Lot3_D3.png" alt="Ttest Lot 3 Summary" width=650>
   </p>
 A one sample t-test is performed on the Lot 3 manufacturing dataset. The resulting p-value is 0.04. Since 0.04 is less than the common 0.05 significance value, we reject the null hypothesis and state that there is a statistically significant difference between Lot 3 and the population. Lot 3 requires further evaluation.
+
+## Study Design: MechaCar vs Competition
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+In your description, address the following questions:
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
